@@ -4,21 +4,17 @@ public class Dau {
 
     int valor;
 
-    void Tirar(){
+    int tirar(){
 
-
-    }
-
-    void Imprimir(){
-
+        this.valor = (int)(Math.random() * 6.0D) + 1;
+        return valor;
 
     }
 
-    void EnviarValor(){
+    void imprimir(){
 
 
+        System.out.println("Ha salido un " + valor);
     }
-
-
 
 }
